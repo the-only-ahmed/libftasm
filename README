@@ -1,0 +1,2 @@
+nasm -f macho64 FILE.asm
+gcc FILE.o main.c
