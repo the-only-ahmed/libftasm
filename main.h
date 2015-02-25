@@ -19,9 +19,22 @@
 #include <stdlib.h>
 
 int	print(int res, char *str);
+
 int	ft_bzeroVerif();
 int   ft_strcatVerif();
 int   ft_isAlphaVerif();
 int   ft_isAlNumVerif();
+int   ft_isAsciiVerif();
+int   ft_isDigitVerif();
+int   ft_isPrintVerif();
+int   ft_tolowerVerif();
+int   ft_toupperVerif();
+int   ft_putsVerif();
 
+int	ft_strlenVerif();
+int	ft_strdupVerif();
+int   ft_memsetVerif();
+int	ft_memcpyVerif();
+
+int   ft_catVerif(int ac, char **av);
 #endif

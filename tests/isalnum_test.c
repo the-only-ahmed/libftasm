@@ -42,5 +42,4 @@ int ft_isAlNumVerif() {
    res += print(mt_test_isalnum(num19, 7), "test 7");
 
    return (res == 19);
-
 }
